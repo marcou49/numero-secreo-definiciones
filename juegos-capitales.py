@@ -15,16 +15,9 @@ def capitales():
 
         else:
             print('Niente')
-            seguimos = input('Mira que era sencillo,  quiéres seguir S/N: ')
             errores += 1 #error del usuario sumamos un error y le preguntamos si quier seguir
 
-            if seguimos.upper() == 'N':
-                print('Mejor dejarlo si')
-                break
-
-            else:
-                print('Hasta luego Lucas') # 'hasta luego Lucas' is a spanish expression like "Ciao bambino" ;)
-
+         
 
     print('\nAcertaste: ', aciertos)
     print("Fallaste:", errores)
