@@ -22,8 +22,8 @@ def capitales():
                 print('Mejor dejarlo si')
                 break
 
-            elif seguimos.upper() != 'Y':
-                print('No te entiendo, pero sigamos')
+            else:
+                print('Hasta luego Lucas') # 'hasta luego Lucas' is a spanish expression like "Ciao bambino" ;)
 
 
     print('\nAcertaste: ', aciertos)
